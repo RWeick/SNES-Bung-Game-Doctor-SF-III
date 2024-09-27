@@ -5,6 +5,8 @@ There were two bodged capacitors, 30 pF and 100 pF, that I've added footprints f
 
 PCB Thicknesses: 1.6 mm
 
-![image](https://github.com/RWeick/SNES-Bung-Doctor-SF-III/blob/main/Memory%20Board.png)
+![image](https://github.com/RWeick/SNES-Bung-Doctor-SF-III/blob/main/MemBoardTop.png)
+
+![image](https://github.com/RWeick/SNES-Bung-Doctor-SF-III/blob/main/MemBoardBottom.png)
 
 ![image](https://github.com/RWeick/SNES-Bung-Doctor-SF-III/blob/main/DS01A-3.png)
