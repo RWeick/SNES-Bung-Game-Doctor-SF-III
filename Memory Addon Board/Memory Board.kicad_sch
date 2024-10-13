@@ -1929,6 +1929,17 @@
 		(uuid "4fea4ca1-7448-4418-9b9c-b491fa632f2f")
 	)
 	(label "~{CAS}.RAM2-4"
+		(at 157.48 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52afa0b8-e435-4871-a86b-cfb492595d06")
+	)
+	(label "~{CAS}.RAM2-4"
 		(at 137.16 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2181,6 +2192,17 @@
 		)
 		(uuid "80938dbb-6efa-4443-9b59-96e4f239f726")
 	)
+	(label "~{CAS}.RAM1-3"
+		(at 133.35 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "820ae073-61ad-4337-b6fb-66180fe212c2")
+	)
 	(label "VREG.5V"
 		(at 67.31 138.43 180)
 		(fields_autoplaced yes)
@@ -2226,7 +2248,7 @@
 		(uuid "84835560-a548-4063-969f-54680d87d1d6")
 	)
 	(label "GND"
-		(at 144.78 88.9 270)
+		(at 133.35 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2257,17 +2279,6 @@
 			(justify left bottom)
 		)
 		(uuid "89216a3f-6c39-460b-844a-e811667b5b4b")
-	)
-	(label "VREG.5V"
-		(at 168.91 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8939d45c-dfee-4945-b492-7c85a4029be9")
 	)
 	(label "D6.Sys"
 		(at 165.1 115.57 180)
@@ -2611,7 +2622,7 @@
 		(uuid "bfc3dadb-03ce-4aa9-92bd-ac76192df363")
 	)
 	(label "GND"
-		(at 168.91 88.9 270)
+		(at 157.48 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2952,17 +2963,6 @@
 		(uuid "f50cd434-f5f0-4b8a-b93a-de5ed6d45981")
 	)
 	(label "VREG.5V"
-		(at 144.78 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f564c2d1-88e0-417c-b3b6-48b597148a6e")
-	)
-	(label "VREG.5V"
 		(at 116.84 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3278,7 +3278,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 144.78 86.36 0)
+		(at 133.35 87.63 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3288,7 +3288,7 @@
 		(fields_autoplaced yes)
 		(uuid "74bcfc4f-2d4b-458d-9f27-8d977f55b287")
 		(property "Reference" "C1"
-			(at 142.24 85.0835 0)
+			(at 130.81 86.3535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,8 +3296,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 142.24 87.6235 0)
+		(property "Value" "100 pF"
+			(at 130.81 88.8935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3306,7 @@
 			)
 		)
 		(property "Footprint" "SFIII:SMD Passive"
-			(at 144.78 86.36 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 86.36 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3324,7 @@
 			)
 		)
 		(property "Description" "0.1u"
-			(at 144.78 86.36 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +3885,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 86.36 0)
+		(at 157.48 87.63 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3895,7 +3895,7 @@
 		(fields_autoplaced yes)
 		(uuid "f45ae811-91fa-49de-a260-71dc61b27fc4")
 		(property "Reference" "C2"
-			(at 166.37 85.0835 0)
+			(at 154.94 86.3535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,8 +3903,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 166.37 87.6235 0)
+		(property "Value" "100 pF"
+			(at 154.94 88.8935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3913,7 @@
 			)
 		)
 		(property "Footprint" "SFIII:SMD Passive"
-			(at 168.91 86.36 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 86.36 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3931,7 @@
 			)
 		)
 		(property "Description" "0.1u"
-			(at 168.91 86.36 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
